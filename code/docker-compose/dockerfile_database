@@ -1,0 +1,9 @@
+FROM postgres:latest
+
+
+ENV POSTGRES_USER=operator
+ENV POSTGRES_PASSWORD=operator
+ENV POSTGRES_DB=postgres	
+
+
+EXPOSE 4532

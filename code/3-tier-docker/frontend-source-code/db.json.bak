@@ -1,0 +1,25 @@
+{
+  "internmembers": [
+    {
+      "id": "d030",
+      "Name": "sagar",
+      "Address": "buwal",
+      "DOB": "2024-02-14",
+      "SelectionStatus": "true"
+    },
+    {
+      "id": "2567",
+      "Name": "amish",
+      "Address": "thamel",
+      "DOB": "2024-02-08",
+      "SelectionStatus": "false"
+    },
+    {
+      "id": "cb8c",
+      "Name": "as",
+      "Address": "C",
+      "DOB": "2024-02-24",
+      "SelectionStatus": "false"
+    }
+  ]
+}
