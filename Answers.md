@@ -56,13 +56,18 @@ For presenting it to browser, i created a python server on port  9090 as well al
 This shows clean human readable vulnerabilities that are available within `redis` image.
 ![image](https://github.com/LF-DevOps-Training/feb-23-docker-mahesh-regmi-newpaney145/assets/42377140/9c7e5cdd-11b3-453d-a35e-4531b79164f9)
 
-
+The status of docker container briefing the memory usage or cpu resource it consuming can be shown below using 
+<br>
+`docker stats redis_docker`
 ![image](https://github.com/LF-DevOps-Training/feb-23-docker-mahesh-regmi-newpaney145/assets/42377140/c704384c-9f37-467f-942b-ac132ddd0cee)
 
+Image below define fluctate in cpu resource usage and mem usage::
 ![image](https://github.com/LF-DevOps-Training/feb-23-docker-mahesh-regmi-newpaney145/assets/42377140/36215434-a47c-4c1f-a053-a062a919b5c6)
 
+To restrict the container memory usage as well cpu resource we can update the container or else we can create a container with limited memory usage during spun up first time::
 ![image](https://github.com/LF-DevOps-Training/feb-23-docker-mahesh-regmi-newpaney145/assets/42377140/7401984c-5307-4515-b05a-396dcaadc170)
 
+AS in image below you can view, the memory rising upto 512mb as well cpu changes.
 ![image](https://github.com/LF-DevOps-Training/feb-23-docker-mahesh-regmi-newpaney145/assets/42377140/9d28f126-d8db-49c3-9462-383503e1946d)
 
 
